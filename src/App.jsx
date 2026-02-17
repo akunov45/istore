@@ -73,7 +73,9 @@ const App = () => {
   return (
     <div style={{
       display: "flex",
-      gap: "20px"
+      gap: "20px",
+      flexWrap: "wrap",
+      justifyContent: "center"
     }}>
       {laptopsData.map((item) => (
         <Card

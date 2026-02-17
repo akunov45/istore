@@ -9,7 +9,7 @@ import DetailPage from './DetailPage/DetailPage.jsx'
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
 
-    <BrowserRouter>
+    <BrowserRouter basename="/istore">
       <Routes>
         <Route path="/" element={<App />} />
         <Route path="/detail/:id" element={<DetailPage />} />
